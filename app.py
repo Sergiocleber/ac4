@@ -10,10 +10,10 @@ def sequencia():
    anterior = 0
    cont = 0
    resposta = "0,"
-   while (found < limite):
-       var1 = proximo
+   while (cont < 50):
+       temp = proximo
        proximo = proximo + anterior
-       anterior = var1
+       anterior = temp
        cont=cont+1
        resposta+= str(proximo) + ","
 
